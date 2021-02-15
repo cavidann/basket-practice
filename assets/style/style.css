@@ -1,0 +1,87 @@
+/* .error {
+    color: red;
+}
+
+label,
+input {
+    width: 100%;
+}
+
+.hasError .error {
+    display: block;
+}
+
+.error {
+    display: none;
+} */
+
+.basket-wrapper i {
+    font-size: 30px;
+}
+
+h1,
+h2,
+p,
+input {
+    margin: 2px 4px;
+}
+
+.basket-wrapper:hover .basket-list {
+    display: block;
+}
+
+.basket-list {
+    display: none;
+    width: 320px;
+    padding: 16px 32px;
+    border: 1px solid lightblue;
+    border-radius: 16px;
+}
+
+.basket-card {
+    position: relative;
+    padding: 8px 16px;
+    border: 1px solid lightblue;
+    border-radius: 16px;
+}
+
+.basket-card i {
+    position: absolute;
+    right: 8px;
+    top: 4px;
+}
+
+.basket-card:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.card {
+    position: relative;
+}
+
+.card i {
+    position: absolute;
+    right: 32px;
+    top: 4px;
+}
